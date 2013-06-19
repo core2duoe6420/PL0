@@ -1,0 +1,22 @@
+var i,j;
+procedure getsum;
+	var j,sum;
+begin
+	j := 0;
+	sum := 0;
+	while j <= i do begin
+		sum := sum + j;
+		j := j + 1
+	end;
+	write(sum)
+end;
+
+begin
+	read(i);
+	j := 0;
+	while j < 10 do
+	begin
+		call getsum;
+		j:=j+1
+	end
+end.
